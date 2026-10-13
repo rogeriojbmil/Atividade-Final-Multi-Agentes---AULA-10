@@ -1,0 +1,17 @@
+# Arquivos gerados ao rodar o exercício (o .env já é ignorado pelo .gitignore da raiz)
+saidas/*
+!saidas/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ambiente virtual
+.venv/
+
+# Variáveis de ambiente (contém credenciais)
+.env
+
+# Configuração local do VS Code na raiz (específica de cada máquina)
+settings.json
